@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+body {
+    margin: 0;
+}
+
+.wrapper{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.banner {
+    margin-bottom: 93vh;
+    text-align: center;
+    z-index: 4;
+    height: 5vh;
+    width: 100vw;
+    position: absolute;
+    background-color: #485563;
+}
+
+.modal {
+    z-index: 3;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optionContainer {
+    height: 60vh;
+    width: 60vw;
+    border-radius: 8px;
+    background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-shadow: 4px 4px 20px rgba(0, 0, 0, .5);
+
+}
+
+.balanceContainer, p {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+}
+
+.optionSelectionContainer {
+    margin-top: 4vh;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+
+    /* justify-content: space-around; */
+}
+
+.containerOption {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    width: 40%;
+    height: 20vh;
+    border-radius: 8px;
+    /* background: #bdc3c7;  fallback for old browsers */
+    color: #bdc3c7;
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.containerOption, p {
+    font-size: 20px;
+}
+
+.containerOption:hover {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.acountingGUI {
+    width: 40vw;
+    height: 60vh;
+    border-radius: 8px;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.amountIntake {
+font-size: 20px;
+font-family: 'Exo 2', sans-serif;
+text-align: center;
+margin-bottom: 5vh;
+}
+
+.transferBtn {
+    font-size: 20px;
+}
+
+.DataDisplay {
+    width: 40vw;
+    height: 60vh;
+    max-height: 60vh;
+    overflow-x: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #bdc3c7;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .5);
+    font-size: 15px;
+}
+
+.stockContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: #bdc3c7;
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Hidden {
+    display: none;
+}
